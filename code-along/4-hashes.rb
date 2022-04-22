@@ -3,7 +3,20 @@
 # ruby 4-hashes.rb
 
 # Hashes are lists of *key-value pairs*
+# me = {
+#     "name"=> "Janina",
+#     "location" => "Chicago"
+#     }
+# puts me
 
 # Accessing data from the hash
+me = {
+    "name"=> "Janina",
+    "location" => {"city" => "Chicago","state" => "IL"},
+    "status" => "here"}
+puts me["name"]
+puts me
+
+
 
 # More Complex Hashes
